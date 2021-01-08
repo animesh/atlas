@@ -1,3 +1,59 @@
+# Setup
+
+install conda 
+```
+wget https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh
+sh -u Anaconda3-5.3.1-Linux-x86_64.sh
+```
+
+install python 3.6 and activate
+```
+conda create --name py36 python=3.6
+conda activate py36
+```
+
+fix ldd error (if any)
+```
+ldd /bin/bash
+export LD_LIBRARY_PATH=/lib/x86_64-linux-gnu
+```
+
+install mamba 
+```
+conda install mamba
+```
+
+install atlas
+```
+mamba install metagenome-atlas
+```
+
+install atlas via git fork
+```
+git clone https://github.com/animesh/atlas.git
+cd atlas
+mv /home/animeshs/anaconda3/envs/py36/bin/atlas atlas-bin
+python setup.py install
+```
+
+download databases
+```
+atlas download
+
+
+download [![testdata](https://zenodo.org/record/3992790/files/test_reads.tar.gz)
+```
+wget https://zenodo.org/record/3992790/files/test_reads.tar.gz
+tar xvzf test_reads.tar.gz
+```
+
+run ##fails##
+```
+    atlas init --db-dir databases path/to/fastq/files
+    atlas run all
+```
+
+
 # Metagenome-Atlas
 
 [![Version](https://anaconda.org/bioconda/metagenome-atlas/badges/version.svg)](https://anaconda.org/bioconda/metagenome-atlas)
