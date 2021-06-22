@@ -39,6 +39,8 @@ python setup.py install
 download databases
 ```
 atlas download
+http://eggnog5.embl.de/download/emapperdb-4.5.1/
+https://zenodo.org/record/1134890/files/refseq.dmnd
 
 
 download [![testdata](https://zenodo.org/record/3992790/files/test_reads.tar.gz)
