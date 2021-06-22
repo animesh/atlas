@@ -59,6 +59,7 @@ run ##fails##
 [![Version](https://anaconda.org/bioconda/metagenome-atlas/badges/version.svg)](https://anaconda.org/bioconda/metagenome-atlas)
 [![Bioconda](https://img.shields.io/conda/dn/bioconda/metagenome-atlas.svg?label=Bioconda )](https://anaconda.org/bioconda/metagenome-atlas)
 [![Documentation Status](https://readthedocs.org/projects/metagenome-atlas/badge/?version=latest)](https://metagenome-atlas.readthedocs.io/en/latest/?badge=latest)
+[![Gitter](https://badges.gitter.im/metagenome-atlas/community.svg)](https://gitter.im/metagenome-atlas/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![follow on twitter](https://img.shields.io/twitter/follow/SilasKieser.svg?style=social&label=Follow)](https://twitter.com/search?f=tweets&q=%40SilasKieser%20%23metagenomeAtlas&src=typd)
 
 
@@ -77,6 +78,11 @@ You can start using atlas with three commands:
 
 [metagenome-atlas.github.io](https://metagenome-atlas.github.io/)
 
+# Documentation
+
+https://metagenome-atlas.readthedocs.io/
+
+[Tutorial](https://github.com/metagenome-atlas/Tutorial)
 
 # Citation
 
@@ -95,4 +101,4 @@ Here are some ideas I work or want to work on when I have time. If you want to c
 - Add statistics and visualisations as in [atlas_analyze](https://github.com/metagenome-atlas/atlas_analyze)
 - Implementation of most rules as snakemake wrapper
 - Cloud execution
-- Update to new nakemake version and use cool reports.
+- Update to new Snakemake version and use cool reports.
